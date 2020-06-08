@@ -8,4 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="common_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="flowLayout_text">
+        <item name="android:paddingLeft">@dimen/dp_16</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+        <item name="android:paddingTop">@dimen/dp_4</item>
+        <item name="android:paddingBottom">@dimen/dp_4</item>
+        <item name="android:background">@drawable/tv_bg_blue_corner</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
 </resources>

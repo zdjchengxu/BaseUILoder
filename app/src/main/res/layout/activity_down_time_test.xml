@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DownTimeTestActivity">
+
+    <com.flipboard.bottomsheet.BottomSheetLayout
+        android:id="@+id/bsl_dt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_action_dt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_10"
+                android:background="@drawable/tv_bg_blue_corner"
+                android:padding="@dimen/dp_10"
+                android:text="点击弹出倒计时页面"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_18" />
+
+            <TextView
+                android:id="@+id/tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/tv_bg_blue_corner"
+                android:padding="@dimen/dp_10"
+                android:text="00"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_25" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开" />
+
+                <Button
+                    android:id="@+id/btn_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </com.flipboard.bottomsheet.BottomSheetLayout>
+
+
+</LinearLayout>

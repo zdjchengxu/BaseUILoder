@@ -26,6 +26,7 @@
                 android:text="这是一些我自己学习工作过程中所积累的东西，希望阅读它的人喜欢，并对你有帮助"
                 android:textColor="#333333"
                 android:textSize="18sp"
+                android:visibility="gone"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -54,6 +55,261 @@
                     android:textSize="16sp" />
 
             </LinearLayout>
+
+            <indi.zdj.djandroid.widget.FlowLayout1
+                app:horizontalDivider="@dimen/dp_30"
+                app:verticalDivider="@dimen/dp_10"
+                android:paddingLeft="@dimen/dp_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="张三李四王麻子"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="是我写作"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="请赏个小红心!"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="张三李四王麻子"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="如下"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一行"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="遍历当前行的子View"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="确定下一个view的left"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="取出这一行的高度值"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="aefte"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="geqaweqwe"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1qw5eadsf1q1w"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1021616"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1qw5eadsf1q1w"
+                    android:textSize="@dimen/text_16" />
+
+                <TextView
+                    style="@style/flowLayout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="这是结尾"
+                    android:textSize="@dimen/text_16" />
+
+
+            </indi.zdj.djandroid.widget.FlowLayout1>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@color/gray1"
+                android:layout_height="wrap_content">
+
+                <indi.zdj.djandroid.widget.FlowLayout
+                    android:id="@+id/fl_main"
+                    android:paddingLeft="@dimen/dp_40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:horizontalDivider="@dimen/dp_16"
+                    app:verticalDivider="@dimen/dp_10" >
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="张三李四王麻子"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="是我写作"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="请赏个小红心!"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="张三李四王麻子"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="如下"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="一行"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="遍历当前行的子View"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="确定下一个view的left"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="取出这一行的高度值"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aefte"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="geqaweqwe"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1qw5eadsf1q1w"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1021616"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1qw5eadsf1q1w"
+                        android:textSize="@dimen/text_16" />
+
+                    <TextView
+                        style="@style/flowLayout_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="这是结尾"
+                        android:textSize="@dimen/text_16" />
+
+
+                </indi.zdj.djandroid.widget.FlowLayout>
+
+            </LinearLayout>
+
+
 
         </LinearLayout>
 
